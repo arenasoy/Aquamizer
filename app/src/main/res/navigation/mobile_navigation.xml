@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/nav_tips">
+
+    <fragment
+        android:id="@+id/nav_about"
+        android:name="com.example.aquamizer.ui.about.AboutFragment"
+        android:label="@string/menu_about"
+        tools:layout="@layout/about_fragment" />
+
+    <fragment
+        android:id="@+id/nav_create_timer"
+        android:name="com.example.aquamizer.ui.timer.CreateTimerFragment"
+        android:label="@string/menu_create_timer"
+        tools:layout="@layout/create_timer_fragment" />
+
+    <fragment
+        android:id="@+id/nav_timer_list"
+        android:name="com.example.aquamizer.ui.timer.TimerListFragment"
+        android:label="@string/menu_timer_list"
+        tools:layout="@layout/timer_list_fragment" />
+
+    <fragment
+        android:id="@+id/nav_tips"
+        android:name="com.example.aquamizer.ui.tips.TipsFragment"
+        android:label="@string/menu_tips"
+        tools:layout="@layout/tips_fragment" />
+</navigation>

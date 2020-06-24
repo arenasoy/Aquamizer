@@ -1,3 +1,17 @@
 <resources>
     <string name="app_name">Aquamizer</string>
+    <string name="title_activity_tips">TipsActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Nome usuario</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_about">Quem somos</string>
+    <string name="menu_create_timer">Cadastrar alarme</string>
+    <string name="menu_timer_list">Alarmes</string>
+    <string name="menu_tips">Dicas para economizar água</string>
 </resources>
