@@ -7,6 +7,7 @@
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
 
+    <!-- NAVIGATION DRAWER MENU   -->
     <string name="menu_home">Home</string>
     <string name="menu_gallery">Gallery</string>
     <string name="menu_slideshow">Slideshow</string>
@@ -14,4 +15,11 @@
     <string name="menu_create_timer">Cadastrar alarme</string>
     <string name="menu_timer_list">Alarmes</string>
     <string name="menu_tips">Dicas para economizar água</string>
+
+    <!-- MULTISELECT TIPS -->
+    <string name="select_kitchen">Cozinha</string>
+    <string name="select_bathroom">Banheiro</string>
+    <string name="select_garden">Jardim</string>
+    <string name="select_laundry">Lavanderia</string>
+    <string name="select_any">Nenhum</string>
 </resources>

@@ -5,9 +5,8 @@
     android:layout_height="match_parent"
     tools:context=".ui.tips.TipsFragment">
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="Hello" />
+    <com.example.aquamizer.components.MultiSpinner android:id="@+id/multi_spinner"
+        android:layout_height="10mm"
+        android:layout_width="50mm" />
 
 </FrameLayout>
