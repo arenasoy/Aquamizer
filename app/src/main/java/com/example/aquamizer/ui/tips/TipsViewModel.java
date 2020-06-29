@@ -30,11 +30,22 @@ public class TipsViewModel extends ViewModel {
 
         this.tips = new ArrayList<Tip>();
 
-        tips.add(new Tip("cozinha 1", CATEGORY.KITCHEN));
-        tips.add(new Tip("cozinha 2", CATEGORY.KITCHEN));
-        tips.add(new Tip("banheiro 1", CATEGORY.BATHROOM));
-        tips.add(new Tip("banheiro 2", CATEGORY.BATHROOM));
-        tips.add(new Tip("lavanderia 1", CATEGORY.LAUNDRY));
+        tips.add(new Tip("Feche a torneira enquanto ensaboa a louça", CATEGORY.KITCHEN));
+        tips.add(new Tip("Retire o excesso de sujeira das louças antes de começar a lavar", CATEGORY.KITCHEN));
+        tips.add(new Tip("Deixe as louças de molho antes de lavar", CATEGORY.KITCHEN));
+        tips.add(new Tip("Lave frutas e verduras em uma bacia", CATEGORY.KITCHEN));
+        tips.add(new Tip("Desligue o chuveiro enquanto se ensaboa", CATEGORY.BATHROOM));
+        tips.add(new Tip("Pressione a descarga somente o tempo necessário", CATEGORY.BATHROOM));
+        tips.add(new Tip("Tome banhos mais rápidos", CATEGORY.BATHROOM));
+        tips.add(new Tip("Escove os dentes com a torneira fechada", CATEGORY.BATHROOM));
+        tips.add(new Tip("Use regadores em vez de uma mangueira", CATEGORY.GARDEN));
+        tips.add(new Tip("Varra em vez de lavar as calçadas", CATEGORY.GARDEN));
+        tips.add(new Tip("Armazene a água da chuva", CATEGORY.GARDEN));
+        tips.add(new Tip("Use a máquina de lavar somemnte quando tiver quantidade de roupas suficiente para enchê-la", CATEGORY.LAUNDRY));
+        tips.add(new Tip("Reaproveite a água da máquina de lavar", CATEGORY.LAUNDRY));
+        tips.add(new Tip("Lave roupas a mão", CATEGORY.LAUNDRY));
+        tips.add(new Tip("Enxague as roupas apenas uma vez", CATEGORY.LAUNDRY));
+        tips.add(new Tip("Deixe as roupas de molho antes de lavar", CATEGORY.LAUNDRY));
 
         filtered = new ArrayList<Tip>();
 
