@@ -9,15 +9,15 @@
             android:icon="@drawable/ic_about"
             android:title="@string/menu_about" />
 
-        <item
-            android:id="@+id/nav_timer_list"
-            android:icon="@drawable/ic_timer"
-            android:title="@string/menu_timer_list"/>
-        <item
-            android:id="@+id/nav_create_timer"
-            android:icon="@drawable/ic_create_timer"
-            android:title="@string/menu_create_timer"
-            />
+<!--        <item-->
+<!--            android:id="@+id/nav_timer_list"-->
+<!--            android:icon="@drawable/ic_timer"-->
+<!--            android:title="@string/menu_timer_list"/>-->
+<!--        <item-->
+<!--            android:id="@+id/nav_create_timer"-->
+<!--            android:icon="@drawable/ic_create_timer"-->
+<!--            android:title="@string/menu_create_timer"-->
+<!--            />-->
 
         <item
             android:id="@+id/nav_tips"
