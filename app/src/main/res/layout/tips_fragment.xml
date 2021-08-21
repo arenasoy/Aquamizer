@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     tools:context=".ui.tips.TipsFragment">
 
-    <com.example.aquamizer.components.MultiSpinner
+    <com.app.aquamizer.components.MultiSpinner
         android:id="@+id/multi_spinner"
         android:layout_height="60sp"
         android:layout_width="400sp" />

@@ -1,4 +1,4 @@
-package com.example.aquamizer.components;
+package com.app.aquamizer.components;
 
 import android.app.AlertDialog;
 import android.content.Context;

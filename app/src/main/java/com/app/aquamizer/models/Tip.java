@@ -1,4 +1,4 @@
-package com.example.aquamizer.models;
+package com.app.aquamizer.models;
 
 public class Tip {
 

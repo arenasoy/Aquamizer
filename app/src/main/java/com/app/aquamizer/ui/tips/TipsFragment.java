@@ -1,4 +1,4 @@
-package com.example.aquamizer.ui.tips;
+package com.app.aquamizer.ui.tips;
 
 import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProviders;
@@ -15,10 +15,10 @@ import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
-import com.example.aquamizer.R;
-import com.example.aquamizer.components.MultiSpinner;
-import com.example.aquamizer.models.CATEGORY;
-import com.example.aquamizer.models.Tip;
+import com.app.aquamizer.R;
+import com.app.aquamizer.components.MultiSpinner;
+import com.app.aquamizer.models.CATEGORY;
+import com.app.aquamizer.models.Tip;
 
 import java.util.ArrayList;
 import java.util.List;

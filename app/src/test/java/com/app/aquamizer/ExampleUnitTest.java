@@ -1,4 +1,4 @@
-package com.example.aquamizer;
+package com.app.aquamizer;
 
 import org.junit.Test;
 

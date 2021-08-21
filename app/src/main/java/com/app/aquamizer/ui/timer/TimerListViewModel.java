@@ -1,4 +1,4 @@
-package com.example.aquamizer.ui.timer;
+package com.app.aquamizer.ui.timer;
 
 import androidx.lifecycle.ViewModel;
 

@@ -1,4 +1,4 @@
-package com.example.aquamizer.ui.about;
+package com.app.aquamizer.ui.about;
 
 import androidx.lifecycle.ViewModel;
 

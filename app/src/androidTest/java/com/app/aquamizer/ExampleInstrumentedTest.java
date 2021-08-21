@@ -1,4 +1,4 @@
-package com.example.aquamizer;
+package com.app.aquamizer;
 
 import android.content.Context;
 

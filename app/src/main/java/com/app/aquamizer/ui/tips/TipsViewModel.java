@@ -1,10 +1,10 @@
-package com.example.aquamizer.ui.tips;
+package com.app.aquamizer.ui.tips;
 
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 
-import com.example.aquamizer.models.CATEGORY;
-import com.example.aquamizer.models.Tip;
+import com.app.aquamizer.models.CATEGORY;
+import com.app.aquamizer.models.Tip;
 
 import java.util.ArrayList;
 import java.util.List;

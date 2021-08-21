@@ -1,4 +1,4 @@
-package com.example.aquamizer.ui.about;
+package com.app.aquamizer.ui.timer;
 
 import androidx.lifecycle.ViewModelProviders;
 
@@ -12,26 +12,26 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.example.aquamizer.R;
+import com.app.aquamizer.R;
 
-public class AboutFragment extends Fragment {
+public class CreateTimerFragment extends Fragment {
 
-    private AboutViewModel mViewModel;
+    private CreateTimerViewModel mViewModel;
 
-    public static AboutFragment newInstance() {
-        return new AboutFragment();
+    public static CreateTimerFragment newInstance() {
+        return new CreateTimerFragment();
     }
 
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container,
                              @Nullable Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.about_fragment, container, false);
+        return inflater.inflate(R.layout.create_timer_fragment, container, false);
     }
 
     @Override
     public void onActivityCreated(@Nullable Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
-        mViewModel = ViewModelProviders.of(this).get(AboutViewModel.class);
+        mViewModel = ViewModelProviders.of(this).get(CreateTimerViewModel.class);
         // TODO: Use the ViewModel
     }
 

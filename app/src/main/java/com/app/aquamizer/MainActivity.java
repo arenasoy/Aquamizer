@@ -1,4 +1,4 @@
-package com.example.aquamizer;
+package com.app.aquamizer;
 
 import androidx.appcompat.app.AppCompatActivity;
 

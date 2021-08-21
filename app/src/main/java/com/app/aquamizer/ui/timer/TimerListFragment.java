@@ -1,4 +1,4 @@
-package com.example.aquamizer.ui.timer;
+package com.app.aquamizer.ui.timer;
 
 import androidx.lifecycle.ViewModelProviders;
 
@@ -12,7 +12,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.example.aquamizer.R;
+import com.app.aquamizer.R;
 
 public class TimerListFragment extends Fragment {
 
